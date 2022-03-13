@@ -1,0 +1,110 @@
+[{
+        "heading": "Coursera",
+        "menus": [{
+            "menu": "About",
+            "link": "/"
+        }, {
+            "menu": "What We Offer",
+            "link": "/"
+        }, {
+            "menu": "Leadership",
+            "link": "/"
+        }, {
+            "menu": "Careers",
+            "link": "/"
+        }, {
+            "menu": "Catalog",
+            "link": "/"
+        }, {
+            "menu": "Coursera Plus",
+            "link": "/"
+        }, {
+            "menu": "Professional Certificates",
+            "link": "/"
+        }, {
+            "menu": "MasterTrack® Certificates",
+            "link": "/"
+        }, {
+            "menu": "Degrees",
+            "link": "/"
+        }, {
+            "menu": "For Enterprise",
+            "link": "/"
+        }, {
+            "menu": "For Government",
+            "link": "/"
+        }, {
+            "menu": "For Campus",
+            "link": "/"
+        }, {
+            "menu": "Become a Partner",
+            "link": "/"
+        }, {
+            "menu": "Coronavirus Response",
+            "link": "/"
+        }]
+    },
+    {
+        "heading": "Community",
+        "menus": [{
+            "menu": "Learners",
+            "link": "/"
+        }, {
+            "menu": "Partners",
+            "link": "/"
+        }, {
+
+            "menu": "Developers",
+            "link": "/"
+        }, {
+            "menu": "Beta Testers",
+            "link": "/"
+        }, {
+            "menu": "Translators",
+            "link": "/"
+        }, {
+            "menu": "Blog",
+            "link": "/"
+        }, {
+            "menu": "Tech Blog",
+            "link": "/"
+        }, {
+            "menu": "Teaching Center",
+            "link": "/"
+        }]
+    },
+    {
+        "heading": "More",
+        "menus": [{
+            "menu": "Press",
+            "link": "/"
+        }, {
+            "menu": "Investors",
+            "link": "/"
+        }, {
+            "menu": "Terms",
+            "link": "/"
+        }, {
+            "menu": "Privacy",
+            "link": "/"
+        }, {
+            "menu": "Help",
+            "link": "/"
+        }, {
+            "menu": "Accessibility",
+            "link": "/"
+        }, {
+            "menu": "Contact",
+            "link": "/"
+        }, {
+            "menu": "Articles",
+            "link": "/"
+        }, {
+            "menu": "Directory",
+            "link": "/"
+        }, {
+            "menu": "Affiliates",
+            "link": "/"
+        }]
+    }
+]

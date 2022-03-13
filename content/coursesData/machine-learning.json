@@ -1,0 +1,25 @@
+{
+    "title": "Machine Learning",
+    "rating": "4.9",
+    "ratings": "167,956",
+    "reviews": "42960",
+    "OfferedBy": "Stanford",
+    "Enrolled": "4,683,202",
+    "About": {
+        "recentViews": "5,096,505",
+        "description": "Machine learning is the science of getting computers to act without being explicitly programmed. In the past decade, machine learning has given us self-driving cars, practical speech recognition, effective web search, and a vastly improved understanding of the human genome. Machine learning is so pervasive today that you probably use it dozens of times a day without knowing it. Many researchers also think it is the best way to make progress towards human-level AI. In this class, you will learn about the most effective machine learning techniques, and",
+        "Skills_You_Gain": ["Logistic Regression", "Artificial Neural Network", "Machine Learning (ML) Algorithms", "Machine Learning"]
+    },
+    "instructor": {
+        "name": "Andrew Ng",
+        "level": "top",
+        "img": "/logo.png",
+        "rating":"4.93/5 (29,741 Ratings)",
+        "about":"Founder, DeepLearning.AI & Co-founder, Coursera",
+        "courses":"33",
+        "learners":"5,734,652"        
+    },
+    "offeredByUn":["Standford University","The Leland Stanford Junior University, commonly referred to as Stanford University or Stanford, is an American private research university located in Stanford, California on an 8,180-acre (3,310 ha) campus near Palo Alto, California, United States.", "/url/"]
+
+    
+}

@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Google",
+        "heading": "Google UX Design",
+        "logoUrl": "/professionalCertificates/logo/Google-G_360x360.png",
+        "imgUrl": "/professionalCertificates/1200x600_UXD.png",
+        "link": ""
+
+    },
+
+    {
+        "title": "Meta",
+        "heading": "Facebook Marketing Analytics",
+        "logoUrl": "/professionalCertificates/logo/360-x-360.png",
+        "imgUrl": "/professionalCertificates/1200x600_DA.png",
+        "link": ""
+    },
+    {
+        "title": "IBM",
+        "heading": "IBM Data Engineering",
+        "logoUrl": "/professionalCertificates/logo/IBM-Logo-Blk---Square.png",
+        "imgUrl": "/professionalCertificates/1200x600_PgM.png",
+        "link": ""
+    },
+
+    {
+        "title": "Intuit",
+        "heading": "Intuit Bookkeeping",
+        "logoUrl": "/professionalCertificates/logo/360x360.png",
+        "imgUrl": "/professionalCertificates/fb-specialization.png",
+        "link": ""
+    },
+    {
+        "title": "Google",
+        "heading": "Google Data Analytics",
+        "logoUrl": "/professionalCertificates/logo/Google-G_360x360.png",
+        "imgUrl": "/professionalCertificates/Group-35.png",
+        "link": ""
+    },
+    {
+        "title": "Meta",
+        "heading": "Facebook Social Media Marketing",
+        "logoUrl": "/professionalCertificates/logo/360-x-360.png",
+        "imgUrl": "/professionalCertificates/iStock-1169539468.jpg",
+        "link": ""
+    },
+    {
+        "title": "IBM",
+        "heading": "IBM Data Science",
+        "logoUrl": "/professionalCertificates/logo/IBM-Logo-Blk---Square.png",
+        "imgUrl": "/professionalCertificates/MA_Specialization.png",
+        "link": ""
+    },
+    {
+        "title": "Google",
+        "heading": "Google Product Management",
+        "logoUrl": "/professionalCertificates/logo/Google-G_360x360.png",
+        "imgUrl": "/professionalCertificates/option2.jpg",
+        "link": ""
+    },
+    {
+        "title": "Salesforce",
+        "heading": "Salesforce Sales Operations",
+        "logoUrl": "/professionalCertificates/logo/Salesforce-Institution-Square-180px-.png",
+        "imgUrl": "/professionalCertificates/Professional_Certificate_-_IBM_Cybersecurity_Analyst.png",
+        "link": ""
+    },
+    {
+        "title": "Google",
+        "heading": "Google IT Support",
+        "logoUrl": "/professionalCertificates/logo/Google-G_360x360.png",
+        "imgUrl": "/professionalCertificates/1200x600_DA.png",
+        "link": ""
+    },
+    {
+        "title": "IBM",
+        "heading": "IBM Cybersecurity Analyst",
+        "logoUrl": "/professionalCertificates/logo/IBM-Logo-Blk---Square.png",
+        "imgUrl": "/professionalCertificates/Search-Thumbnail.jpg",
+        "link": ""
+    },
+    {
+        "title": "Salesforce",
+        "heading": "Salesforce Development Representative",
+        "logoUrl": "/professionalCertificates/logo/Salesforce-Institution-Square-180px-.png",
+        "imgUrl": "/professionalCertificates/unnamed.png",
+        "link": ""
+    }
+]

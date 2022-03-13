@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Data Science",
+        "courses": "425",
+        "logoUrl": "/exploreCoursera/data_science.png"
+    },
+    {
+        "title": "Business",
+        "courses": "1095",
+        "logoUrl": "/exploreCoursera/physical_science.png"
+    },
+    {
+        "title": "Computer Science",
+        "courses": "668",
+        "logoUrl": "/exploreCoursera/social_sciences.png"
+    },
+    {
+        "title": "Health",
+        "courses": "471",
+        "logoUrl": "/exploreCoursera/physical_science.png"
+    },
+    {
+        "title": "Social Science",
+        "courses": "401",
+        "logoUrl": "/exploreCoursera/data_science.png"
+    },
+    {
+        "title": "Personal Development",
+        "courses": "137",
+        "logoUrl": "/exploreCoursera/social_sciences.png"
+    },
+    {
+        "title": "Arts and Humanities",
+        "courses": "338",
+        "logoUrl": "/exploreCoursera/data_science.png"
+    },
+    {
+        "title": "Physical Science and Engineering",
+        "courses": "413",
+        "logoUrl": "/exploreCoursera/physical_science.png"
+    },
+    {
+        "title": "Lanugage Learning",
+        "courses": "150",
+        "logoUrl": "/exploreCoursera/data_science.png"
+    },
+    {
+        "title": "Information Technology",
+        "courses": "145",
+        "logoUrl": "/exploreCoursera/social_sciences.png"
+    },
+    {
+        "title": "Math and Logic",
+        "courses": "70",
+        "logoUrl": "/exploreCoursera/data_science.png"
+    }
+]

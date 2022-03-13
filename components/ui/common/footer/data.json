@@ -1,0 +1,315 @@
+[{
+        "menuTitle": "Start or advance your career",
+        "menus": [{
+                "menu": "Google Data Analyst",
+                "link": "/"
+            },
+            {
+                "menu": "Google Project Management",
+                "link": "/"
+            },
+            {
+                "menu": "Google IT Support",
+                "link": "/"
+            },
+            {
+                "menu": "IBM Data Science",
+                "link": "/"
+            },
+            {
+                "menu": "IBM Data Analyst",
+                "link": "/"
+            },
+            {
+                "menu": "IBM Data Analytics with Excel and R",
+                "link": "/"
+            },
+            {
+                "menu": "IBM Cybersecurity Analyst",
+                "link": "/"
+            },
+            {
+                "menu": "IBM Data Engineering",
+                "link": "/"
+            },
+            {
+                "menu": "IBM Full Stack Cloud Developer",
+                "link": "/"
+            },
+            {
+                "menu": "Facebook Social Media Marketing",
+                "link": "/"
+            },
+            {
+                "menu": "Facebook Marketing Analytics",
+                "link": "/"
+            },
+            {
+                "menu": "Salesforce Sales Development Representative",
+                "link": "/"
+            },
+            {
+                "menu": "Salesforce Sales Operations",
+                "link": "/"
+            },
+            {
+                "menu": "Intuit Bookkeeping",
+                "link": "/"
+            },
+            {
+                "menu": "Preparing for Google Cloud Certification: Cloud Architect",
+                "link": "/"
+            },
+            {
+                "menu": "Preparing for Google Cloud Certification: Cloud Data Engineer",
+                "link": "/"
+            },
+            {
+                "menu": "Launch your career",
+                "link": "/"
+            },
+            {
+                "menu": "Prepare for a certification",
+                "link": "/"
+            },
+            {
+                "menu": "Advance your career",
+                "link": "/"
+            }
+        ]
+    },
+
+
+    {
+        "menuTitle": "Browse popular topics",
+        "menus": [{
+                "menu": "Free Courses",
+                "link": "/"
+            },
+            {
+                "menu": "Learn a Language",
+                "link": "/"
+            },
+            {
+                "menu": "Python",
+                "link": "/"
+            },
+            {
+                "menu": "Java",
+                "link": "/"
+            },
+            {
+                "menu": "Web Design",
+                "link": "/"
+            },
+            {
+                "menu": "SQL",
+                "link": "/"
+            },
+            {
+                "menu": "Cursos Gratis",
+                "link": "/"
+            },
+            {
+                "menu": "Microsoft Excel",
+                "link": "/"
+            },
+            {
+                "menu": "Project Management",
+                "link": "/"
+            },
+            {
+                "menu": "Cybersecurity",
+                "link": "/"
+            },
+            {
+                "menu": "Human Resources",
+                "link": "/"
+            },
+            {
+                "menu": "Data Science Free Courses",
+                "link": "/"
+            },
+            {
+                "menu": "Speaking English",
+                "link": "/"
+            },
+            {
+                "menu": "Content Writing",
+                "link": "/"
+            },
+            {
+                "menu": "Full Stack Web Development",
+                "link": "/"
+            },
+            {
+                "menu": "Artificial Intelligence",
+                "link": "/"
+            },
+            {
+                "menu": "C Programming",
+                "link": "/"
+            },
+            {
+                "menu": "Communication Skills",
+                "link": "/"
+            },
+            {
+                "menu": "Blockchain",
+                "link": "/"
+            },
+            {
+                "menu": "See all courses",
+                "link": "/"
+            }
+        ]
+    },
+    {
+        "menuTitle": "Popular courses and articles",
+        "menus": [{
+                "menu": "Skills for Data Science Teams",
+                "link": "/"
+            },
+            {
+                "menu": "Data Driven Decision Making",
+                "link": "/"
+            },
+            {
+                "menu": "Software Engineering Skills",
+                "link": "/"
+            },
+            {
+                "menu": "Soft Skills for Engineering Teams",
+                "link": "/"
+            },
+            {
+                "menu": "Management Skills",
+                "link": "/"
+            },
+            {
+                "menu": "Marketing Skills",
+                "link": "/"
+            },
+            {
+                "menu": "Skills for Sales Teams",
+                "link": "/"
+            },
+            {
+                "menu": "Product Manager Skills",
+                "link": "/"
+            },
+            {
+                "menu": "Skills for Finance",
+                "link": "/"
+            },
+            {
+                "menu": "Popular Data Science Courses in the UK",
+                "link": "/"
+            },
+            {
+                "menu": "Beliebte Technologiekurse in Deutschland",
+                "link": "/"
+            },
+            {
+                "menu": "Popular Cybersecurity Certifications",
+                "link": "/"
+            },
+            {
+                "menu": "Popular IT Certifications",
+                "link": "/"
+            },
+            {
+                "menu": "Popular SQL Certifications",
+                "link": "/"
+            },
+            {
+                "menu": "Marketing Manager Career Guide",
+                "link": "/"
+            },
+            {
+                "menu": "Project Manager Career Guide",
+                "link": "/"
+            },
+            {
+                "menu": "Python Programming Skills",
+                "link": "/"
+            },
+            {
+                "menu": "Web Developer Career Guide",
+                "link": "/"
+            },
+            {
+                "menu": "Data Analyst Skills",
+                "link": "/"
+            },
+            {
+                "menu": "Skills for UX Designers",
+                "link": "/"
+            }
+        ]
+    },
+    {
+        "menuTitle": "Earn a degree or certificate online",
+        "menus": [{
+            "menu": "MasterTrack® Certificates",
+            "link": "/"
+        }, {
+            "menu": "Professional Certificates",
+            "link": "/"
+        }, {
+            "menu": "University Certificates",
+            "link": "/"
+        }, {
+            "menu": "MBA & Business Degrees",
+            "link": "/"
+        }, {
+            "menu": "Data Science Degrees",
+            "link": "/"
+        }, {
+            "menu": "Computer Science Degrees",
+            "link": "/"
+        }, {
+            "menu": "Data Analytics Degrees",
+            "link": "/"
+        }, {
+            "menu": "Public Health Degrees",
+            "link": "/"
+        }, {
+            "menu": "Social Sciences Degrees",
+            "link": "/"
+        }, {
+            "menu": "Management Degrees",
+            "link": "/"
+        }, {
+            "menu": "Degrees from Top European Universities",
+            "link": "/"
+        }, {
+            "menu": "Master's Degrees",
+            "link": "/"
+        }, {
+            "menu": "Bachelor's Degrees",
+            "link": "/"
+        }, {
+            "menu": "Degrees with a Performance Pathway",
+            "link": "/"
+        }, {
+            "menu": "Bsc Courses",
+            "link": "/"
+        }, {
+            "menu": "What is a Bachelor's Degree?",
+            "link": "/"
+        }, {
+            "menu": "How Long Does a Master's Degree Take?",
+            "link": "/"
+        }, {
+            "menu": "Is an Online MBA Worth It?",
+            "link": "/"
+        }, {
+            "menu": "7 Ways to Pay for Graduate School",
+            "link": "/"
+        }, {
+            "menu": "See all certificates",
+            "link": "/"
+        }]
+    }
+]

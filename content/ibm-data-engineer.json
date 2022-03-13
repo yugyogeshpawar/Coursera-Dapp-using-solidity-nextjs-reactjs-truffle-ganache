@@ -1,0 +1,111 @@
+{
+    "course": {
+        "id": "3",
+        "slug": "ibm-data-engineer",
+        "url": "",
+        "Breadcrumbs":[
+            "Browse","Information Technology","Data Management"
+        ]
+    },
+
+    "hero": {
+        "Heading": "IBM Data Engineering Professional Certificate",
+        "mainDsc": "Launch your new career in Data Engineering. Master SQL, RDBMS, ETL, Data Warehousing, NoSQL, Big Data and Spark with hands-on job-ready skills.",
+        "rating": "4.6",
+        "ratings": "1,050",
+        "instructor": "Rav Ahuja +14 more instructors",
+        "instructorLogo": "/instructors/ravahug.jpg",
+        "topInstructor": "false",
+        "Enroll_for_free": "Start Mar 12",
+        "already_enrolled": "13,159",
+        "offeredByIMG": "/images/IBM-Logo-White.png",   
+        "bgColor":"bg-gradient-to-r from-[#1F70C1] to-[#000000]",
+        "buttonColor":"bg-white text-black"
+       
+    },
+
+    "what_you_will_learn": ["Followthedesignprocessempathizewithusersdefinepainpointsideatesolutionscreatewireframesandpr"],
+
+    "skill_you_will_gain": ["UserExperience"],
+
+    "about_pro_cer": ["Prepare"],
+
+    "applied_learning_project": ["Thisprogramincludesover"],
+
+    "side_bar": {
+        "ShareableCertificate": "EarnaCertificateuponcompletion",
+        "onlineCourses": "Startinstantlyandlearnatyourownschedule",
+        "FlexibleSchedule": "Setandmaintainflexibledeadlines",
+        "BeginnerLevel": "Nodegreeorpriorexperiencerequired",
+        "Approximately": ["months", "Suggestedpaceeek"],
+        "Subtitles": "English"
+    },
+
+    "what_is_pro_certificate": {
+        "Build the Skills to Get Job Ready": "Whetheryourelookingtotarttime",
+        "Hands-On Projects": "ApplyCertificate",
+        "Earn a Career Credential": "Whenyoucompleteallapplies.",
+        "img": ""
+    },
+    "CoursesProCertificates": {
+        "count": "6",
+        "1": {
+            "title": "Foundations of User Experience (UX) Design",
+            "rating": "4.8",
+            "ratings": "20,919",
+            "reviews": "4,062",
+            "dsc": [
+                "Foundations of User Experience (UX) Design is the first of a series of seven courses that will equip you with the skills needed to apply to entry-level jobs in user experience design. UX designers focus on the interactions that people have with products like websites, mobile apps, and physical objects. UX designers make those everyday interactions usable, enjoyable, and accessible. The role of an entry-level UX designer might include empathizing with users, defining their pain points, coming up with ideas for design solutions, creating wireframes, prototypes, and mockups, and testing designs to get feedback.", "Current UX designers and researchers at Google will serve as your instructors, and you will complete hands-on activities that simulate real-world UX design scenarios.", "Learners who complete the seven courses in this certificate program should be equipped to apply for entry-level jobs as UX designers. No previous experience is necessary.", "By the end of this course, you will be able to: ", " - Define the field of UX and explain why it’s important for consumers and businesses.", " - Understand foundational concepts in UX design, such as user-centered design, the design process, accessibility, and equity-focused design. ", "   - Identify the factors that contribute to great user experience design.", "   - Review common job responsibilities of entry-level UX designers and teams that they work with.", "  - Explore job opportunities and career paths within the field of user experience.  ", "- Explain why design sprints are an important and useful part of a UX designer’s work.", "- Start to create an online portfolio where you can showcase your upcoming work.", "   - Join and participate in online UX communities."
+            ]
+        },
+        "2": {
+            "title": "Start the UX Design Process: Empathize, Define, and Ideate",
+            "rating": "4.8",
+            "ratings": "4,835",
+            "reviews": "854",
+            "dsc": [
+                "Start the UX design process: Empathize, Define, Ideate is the second course in a certificate program that will equip you with the skills needed to apply to entry-level jobs in user experience (UX) design. In this course, you’ll complete the first phases of the design process for a project that you’ll be able to include in your portfolio. You will learn how to empathize with users and understand their pain points, define user needs using problem statements, and come up with lots of ideas for solutions to those user problems. ", "Current UX designers and researchers at Google will serve as your instructors, and you will complete hands-on activities that simulate real-world UX design scenarios.", "Learners who complete the seven courses in this certificate program should be equipped to apply for entry-level jobs as UX designers. No previous experience is necessary.", "By the end of this course, you will be able to:", " - Describe common UX research methods. ", "   - Empathize with users to understand their needs and pain points.", "   - Create empathy maps, personas, user stories, and user journey maps to understand user needs.", "   - Develop problem statements to define user needs. ", "  - Generate ideas for possible solutions to user problems. ", "  - Conduct competitive audits.", "  - Identify and account for biases in UX research.", "   - Start designing a mobile app, a new project to include in your professional UX portfolio."
+            ]
+        },
+
+        "3": {
+            "title": "Build Wireframes and Low-Fidelity Prototypes",
+            "rating": "4.9",
+            "ratings": "2,623",
+            "reviews": "451 ",
+            "dsc": [
+                "Build Wireframes and Low-Fidelity Prototypes is the third course in a certificate program that will equip you with the skills you need to apply to entry-level jobs in user experience (UX) design. In this course, you’ll continue to design a mobile app for your professional UX portfolio. You’ll start by creating storyboards and getting familiar with the basics of drawing. Then, you'll create paper wireframes and digital wireframes using the design tool Figma. You’ll also create a paper prototype and a digital low-fidelity prototype in Figma. ", "Current UX designers and researchers at Google will serve as your instructors, and you will complete hands-on activities that simulate real-world UX design scenarios. Learners who complete the seven courses in this certificate program should be equipped to apply for entry-level jobs as UX designers.", "By the end of this course, you will be able to:", " - Develop a goal statement. ", " - Create two types of storyboards: big picture and close-up. ", " - Understand the difference between low-fidelity and high-fidelity design. ", "- Apply the basics of drawing. ", " - Apply the principles of information architecture to organize a mobile app. ", "   - Create paper wireframes for a mobile app design.", " - Develop digital wireframes in the design tool Figma. ", "   - Build a paper prototype to add interactivity to designs. ", "   - Design a low-fidelity prototype in Figma. ", "  - Recognize implicit bias and deceptive patterns in design. ", "   - Continue to design a mobile app to include in your professional portfolio. ","To be successful in this course, you should complete the previous two courses in this certificate program, or have an ability to conduct user research to inform the creation of empathy maps, personas, user stories, user journey maps, problem statements, and value propositions. You will also need paper and a pen or pencil."
+            ]
+        },
+        "4": {
+            "title": "Conduct UX Research and Test Early Concepts",
+            "rating": "4.8",
+            "ratings": "1,539",
+            "reviews": "244 ",
+            "dsc": [
+                "Conduct UX Research and Test Early Concepts is the fourth course in a certificate program that will equip you with the skills you need to apply to entry-level jobs in user experience (UX) design. In this course, you will learn how to plan and conduct a usability study to gather feedback about designs. Then, you will modify your low-fidelity designs based on insights from your research. ", "Current UX designers and researchers at Google will serve as your instructors, and you will complete hands-on activities that simulate real-world UX design scenarios. Learners who complete the seven courses in this certificate program should be equipped to apply for entry-level jobs as UX designers. ", "By the end of this course, you will be able to:", "   - Plan a UX research study, including the project background, research goals, research questions, Key Performance Indicators, methodology, participants, and script.", "   - Explain the importance of respecting privacy and user data.", "   - Conduct a moderated and unmoderated usability study.", "   - Take notes during a usability study.", "   - Create affinity diagrams to group and analyze data. ", "  - Synthesize observations from research and come up with insights. ", "  - Develop persuasive presentation skills to share research insights.", "  - Modify low-fidelity designs based on research insights.", "  - Continue to design a mobile app to include in your professional portfolio. ", "To be successful in this course, you should complete the previous three courses in the certificate program. Or, you need to have an ability to conduct user research to inform the creation of empathy maps, personas, user stories, user journey maps, problem statements, and value propositions; as well as an ability to create wireframes and low-fidelity prototypes on paper and in Figma."
+            ]
+        },
+        "5": {
+            "title": "Create High-Fidelity Designs and Prototypes in Figma",
+            "rating": "4.8",
+            "ratings": "1,078",
+            "reviews": "168 ",
+            "dsc": [
+                "Create High-Fidelity Designs and Prototypes in Figma is the fifth course in a certificate program that will equip you with the skills you need to apply to entry-level jobs in user experience (UX) design. In this course, you will follow step-by-step tutorials to learn how to create high-fidelity designs, called mockups, in Figma, a popular design tool. Then, you’ll turn those designs into an interactive prototype that works like a finished product. You’ll conduct research to collect feedback about your designs and make improvements. Finally, you’ll learn how to share your designs with development teams and highlight your work in your professional UX portfolio.", "Current UX designers and researchers at Google will serve as your instructors, and you will complete hands-on activities that simulate real-world UX design scenarios. Learners who complete the seven courses in this certificate program should be equipped to apply for entry-level jobs as UX designers.", "By the end of this course, you will be able to:", "   - Build mockups and high-fidelity prototypes in Figma.", "  - Define and apply common visual design elements and principles.", "  - Demonstrate how design systems can be used to organize, standardize, and enhance designs.", "  - Understand the role of design critique sessions and feedback while iterating on designs. ", "  - Learn how to hand off finished design projects to engineering teams. ", "", "  - Complete mobile app designs to include in a professional UX portfolio. ", "This course is suitable for beginner-level UX designers who have completed the previous four courses of the Google UX Design Certificate. Alternatively, learners who have not completed the previous courses should have a strong understanding of the design process, how to create low-fidelity designs on paper and in Figma, and how to conduct usability studies."
+            ]
+        },
+        "6": {
+            "title": "Responsive Web Design in Adobe XD",
+            "rating": "4.8",
+            "ratings": "782 ",
+            "reviews": "139 ",
+            "dsc": [
+                "Responsive Web Design in Adobe XD is the sixth course in a program that will equip you with the skills you need to apply to entry-level jobs in user experience (UX) design. In this course, you will design a responsive website using Adobe XD, a popular design tool. You will complete the design process from beginning to end: empathizing with users, defining their pain points, coming up with ideas for design solutions, creating wireframes and prototypes, and testing designs to get feedback. By the end of this course, you will have a new design project to include in your professional UX portfolio. ", "In addition, you’ll learn how to search for entry-level UX design jobs, create a resume that highlights your skills and accomplishments, and build your professional portfolio website. ", "Current UX designers and researchers at Google will serve as your instructors, and you will complete hands-on activities that simulate real-world UX design scenarios. Learners who complete the seven courses in this certificate program should be equipped to apply for entry-level jobs as UX designers.", "By the end of this course, you will be able to:", "  - Apply each step of the UX design process (empathize, define, ideate, prototype, test) to create a responsive website.", "  - Develop designs in a popular design tool, Adobe XD.", "  - Plan information architecture and create sitemaps for website designs. ", "  - Apply common layouts for web pages. ", " - Plan and conduct a usability study to gather feedback about designs. ", " - Iterate on designs based on research insights. " , " - Work with design systems in Adobe XD.", "  - Add a new design project to your professional UX portfolio. ", " - [Optional] Create or update a UX-focused resume. " , "  - [Optional] Learn how to search for and apply to introductory-level jobs in the field of UX.", "This course is suitable for beginner-level UX designers who have completed the previous five courses of the Google UX Design Certificate. Alternatively, learners need to have a strong foundational understanding of the design process; experience creating wireframes, mockups, and prototypes; and the ability to conduct usability studies. No previous experience with Adobe XD is required."
+            ]
+        }
+    }
+
+
+
+}
