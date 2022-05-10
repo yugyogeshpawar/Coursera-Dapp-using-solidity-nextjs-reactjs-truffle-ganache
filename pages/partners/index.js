@@ -1,6 +1,8 @@
 
 import { PartnerLogoImage } from '@components/ui/common/'
 import { getPartners } from '@content/partners/partner'
+import { BaseLayout } from '@components/layout'
+
 function index({ partner }) {
   return (
     <>
@@ -24,3 +26,5 @@ export function getStaticProps() {
   const { partner } = getPartners()
   return { props: { partner } }
 }
+
+index.Layout = BaseLayout

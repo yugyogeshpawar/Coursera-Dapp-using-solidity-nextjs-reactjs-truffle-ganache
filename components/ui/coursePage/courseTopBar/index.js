@@ -1,5 +1,7 @@
-import Image from "next/image";
-function index({Hero, className }) {
+import Image from "next/image"
+
+function index({ Hero, className, handleOpen }) {
+
     return (
         <>
             <div className={`bg w-full lg:overflow-x-hidden whitespace-nowrap  ${className} ${Hero.bgColor} overflow-hidden`}>
@@ -10,11 +12,11 @@ function index({Hero, className }) {
                         </div>
                         <div className="font-bold sm:px-5 text-white whitespace-pre-wrap 
                             ">{Hero.Heading ? Hero.Heading : "Coursera 😈"}</div>
-                    </div>
-                    <button className={` ${Hero.buttonColor} font-bold p-2 lg:p-4 rounded text-sm my-1`}>
-                        <div>Enroll for free</div>
-                        <div>Starts Mar 5</div>
-                    </button>
+                    </div>            
+                        <button onClick={handleOpen} className={` ${Hero.buttonColor} font-bold p-2 lg:p-4 rounded text-sm my-1`}>
+                            <div>Enroll for free</div>
+                            <div>Starts Mar 5</div>
+                        </button>
                 </div>
             </div>
             {/* <style jsx>{`.bg {

@@ -41,14 +41,15 @@ function index() {
                         }}
 
 
-                        onSwiper={(swiper) => console.log(swiper)}
-                        onSlideChange={() => console.log('slide change')}>
+                        // onSwiper={(swiper) => console.log(swiper)}
+                        // onSlideChange={() => console.log('slide change')}
+                    >
                         {Data.map((item) =>
                             <SwiperSlide key={item.heading} className='!w-[250px]'> <Card title={item.title} heading={item.heading} logoUrl={item.logoUrl} imgUrl={item.imgUrl} /> </SwiperSlide>
                         )}
                     </Swiper>
                 </div>
-                <div className='h-10 text-center mt-8 mb-28 font-bold text-blue-800 hover:underline flex justify-center'><div>
+                <div className='h-10 text-center mt-8 mb-8 lg:mb-20 font-bold text-blue-800 hover:underline flex justify-center'><div>
                     Explore Degrees</div>
                     <span className='ml-2 items-center pt-px' ><svg aria-hidden="true" focusable="false" height="20" viewBox="0 0 20 20" width="20" className="fill-blue-800 " id="cds-8"><path d="M9 12.46H2V7.53h7V2l9 8-9 8v-5.54z" fill="currentColor"></path></svg></span>
                 </div>

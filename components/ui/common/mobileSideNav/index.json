@@ -1,0 +1,77 @@
+[{
+        "menuTitle": "Goals",
+        "menus": [{
+                "menu": "Take a free course",
+                "link": "/"
+            },
+            {
+                "menu": "Earn a Degree",
+                "link": "/"
+            },
+            {
+                "menu": "Earn a Certificate",
+                "link": "/"
+            },
+            {
+                "menu": "Advance your career",
+                "link": "/"
+            }
+        ]
+    },
+
+
+    {
+        "menuTitle": "Subjects",
+        "menus": [{
+                "menu": "Data Science",
+                "link": "/"
+            },
+            {
+                "menu": "Business",
+                "link": "/"
+            },
+
+            {
+                "menu": "Computer Science",
+                "link": "/"
+            },
+            {
+                "menu": "Information Technology",
+                "link": "/"
+            },
+            {
+                "menu": "Language Learning",
+                "link": "/"
+            },
+            {
+                "menu": "Health",
+                "link": "/"
+            },
+
+            {
+                "menu": "Personal Development",
+                "link": "/"
+            },
+            {
+                "menu": "Physical Science and Engineering",
+                "link": "/"
+            },
+            {
+                "menu": "Social Sciences",
+                "link": "/"
+            },
+            {
+                "menu": "Arts and Humanities",
+                "link": "/"
+            },
+            {
+                "menu": "Math and Logic",
+                "link": "/"
+            },
+            {
+                "menu": "Browse all subjects",
+                "link": "/"
+            }
+        ]
+    }
+]

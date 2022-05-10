@@ -69,7 +69,7 @@ export default function CustomizedAccordions() {
                         </div>
 
                         {FAQJSON.map((faq) => (
-                            <div key={faq.index}>
+                            <div key={faq.question+"keyy"}>
                                 <Accordion onChange={handleChange('panel1')}>
                                     <AccordionSummary>
                                         <Typography>{faq.question}</Typography>

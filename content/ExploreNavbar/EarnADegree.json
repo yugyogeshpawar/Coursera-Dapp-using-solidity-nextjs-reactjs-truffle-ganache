@@ -1,0 +1,107 @@
+[{
+        "title": "Data Science",
+        "data": [{
+                "university": "University of Michigan",
+                "course": "Master of Applied Data Science"
+            },
+            {
+                "university": "University of Illinois at Urbana-Champaign",
+                "course": "Master in Computer Science"
+            },
+            {
+                "university": "University of Colorado Boulder",
+                "course": "Master of Science in Data Science"
+            },
+            {
+                "university": "HSE University",
+                "course": "Master of Data Science"
+            },
+            {
+                "university": "HSE University",
+                "course": "Master of Data and Network Analysis"
+            },
+            {
+                "university": "Universidad de los Andes",
+                "course": "Maestría en Inteligencia Analítica de Datos"
+            }
+        ]
+    },
+
+    {
+        "title": "Business",
+        "data": [{
+                "university": "O.P. Jindal Global University",
+                "course": "MBA in Business Analytics"
+            },
+            {
+                "university": "University of North Texas",
+                "course": "Bachelor of Applied Arts and Sciences"
+            },
+            {
+                "university": "University of Illinois at Urbana-Champaign",
+                "course": "Master of Business "
+            },
+            {
+                "university": "HEC Paris",
+                "course": "MSc in Innovation and Entrepreneurship"
+            },
+            {
+                "university": "HSE University",
+                "course": "Master of Business Analytics"
+            },
+            {
+                "university": "Universidad de Palermo",
+                "course": "Maestría en Dirección de Empresas (MBA)"
+            }
+        ]
+    },
+
+    {
+        "title": "Business",
+        "data": [{
+                "university": "University of London",
+                "course": "Bachelor of Science in Computer Science"
+            },
+            {
+                "university": "University of Illinois at Urbana-Champaign",
+                "course": "Master of Computer Science"
+            },
+            {
+                "university": "Penn Engineering",
+                "course": "Master of Computer and Information Technology"
+            },
+            {
+                "university": "Universidad de los Andes",
+                "course": "Maestría en Ingeniería de Software"
+            },
+            {
+                "university": "HSE University",
+                "course": "Master of Computer Vision"
+            },
+            {
+                "university": "University of Colorado Boulder",
+                "course": "Master of Science in Electrical "
+            }
+        ]
+    },
+
+    {
+        "title": "More Degrees",
+        "data": [{
+                "Link": "Public Health"
+            },
+            {
+                "Link": "Bachelor's Degrees"
+            },
+            {
+                "Link": "Engineering"
+            },
+            {
+                "Link": "Master's Degrees"
+            },
+            {
+                "Link": "Social Sciences"
+            }
+        ]
+    }
+]

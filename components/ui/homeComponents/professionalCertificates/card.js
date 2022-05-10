@@ -7,7 +7,7 @@ function index({ title, heading, logoUrl, imgUrl, slug }) {
         <Link href={`/course/${slug}`}>
             <div className="bg-violet-900 w-[265px] ">
 
-                <div className={`bg-no-repeat h-[370px] relative bg cursor-pointer`}>
+                <div className={`bg-no-repeat h-[336px] relative bg cursor-pointer`}>
 
                     <style jsx>{`.bg {
                     background-image: url(${imgUrl});

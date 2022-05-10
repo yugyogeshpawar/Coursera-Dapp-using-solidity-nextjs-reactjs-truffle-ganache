@@ -1,9 +1,10 @@
-import {  Hero, } from '@components/ui/common/'
-import { PartnersHero, ProfessionalCertificates, MastersDegree, CoursesAndSpecializations, ExploreCoursera, HundredPercentFree } from '@components/ui/homeComponents'
-
 import Head from 'next/head'
+import { Hero, } from '@components/ui/common/'
+import { PartnersHero, ProfessionalCertificates, MastersDegree, CoursesAndSpecializations, ExploreCoursera, HundredPercentFree } from '@components/ui/homeComponents'
+import { BaseLayout } from '@components/layout'
 
-export default function Home({ partners }) {
+
+export default function Home() {
 
   return (
     <>
@@ -11,7 +12,7 @@ export default function Home({ partners }) {
         <title>Coursera Dapp</title>
         <meta name="description" content="Coursera D_app" />
         <link rel="icon" href="/favicon-v2-16x16.png" />
-      </Head>      
+      </Head>
       <Hero />
       <PartnersHero />
       <ProfessionalCertificates />
@@ -19,8 +20,10 @@ export default function Home({ partners }) {
       <CoursesAndSpecializations />
       <HundredPercentFree />
       <ExploreCoursera />
-     
+ 
+
     </>
   )
 }
 
+Home.Layout = BaseLayout
