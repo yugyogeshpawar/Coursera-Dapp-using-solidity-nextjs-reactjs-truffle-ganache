@@ -2,6 +2,7 @@ import detectEthereumProvider from "@metamask/detect-provider"
 import Web3 from 'web3'
 import { useEffect, useMemo, useState } from "react"
 import { setupHooks } from "./hooks/setupHooks"
+import { loadContract } from "@utils/loadContract"
 
 
 const { createContext, useContext } = require("react")
@@ -27,6 +28,8 @@ export default function Web3Provider({ children }) {
 
             if (provider) {
                 const web3 = new Web3(provider)
+                const contract =await loadContract("Coursera", provider)
+                console.log(contract) 
                 setWeb3Api({
                     web3, provider, isLoading: false,
                     metamaskInstalled: true,
