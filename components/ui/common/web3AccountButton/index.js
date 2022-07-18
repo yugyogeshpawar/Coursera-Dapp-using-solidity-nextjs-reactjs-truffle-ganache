@@ -15,6 +15,8 @@ function index() {
 
     const handleTooltipOpen = () => {
         setaccountTab(true)
+        
+        
     }
 
     const handleTooltipClose = () => {
@@ -35,8 +37,8 @@ function index() {
             },
         }))
     
-    if (!web3Api.isLoading) {
-        if (web3Api.web3) {
+    if (!_web3Api.isLoading) {
+        if (_web3Api.web3) {
             return (
                 <ClickAwayListener onClickAway={handleTooltipClose}>
                     <div>
@@ -53,7 +55,7 @@ function index() {
                                 <div className='text-base cursor-context-menu text-gray-700 mr-2 w-96'> <Web3AccountDropdown /> </div>}>                            
 
                             <div>
-                                { !web3Api.metamaskInstalled ? <Button onClick={connect}> Connect metamask <span>⮟</span></Button>
+                                { !_web3Api.metamaskInstalled ? <Button onClick={connect}> Connect metamask <span>⮟</span></Button>
                                 :
                                 <Button onClick={accountTab ? () => handleTooltipClose() : () => handleTooltipOpen()}> Account <span>⮟</span></Button>}
                             </div>

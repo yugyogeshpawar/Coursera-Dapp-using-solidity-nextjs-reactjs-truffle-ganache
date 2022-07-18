@@ -5,6 +5,8 @@ import { useState, useEffect } from "react"
 import { BaseLayout } from "@components/layout"
 import { CourseinProfessionalCertificates, CourseHero, WhatisProfessionalCertificate, TopBars, CourseTopBar, WhatYouWillLearn, SideBar, AboutProCertificate, Instructor, FAQ } from "@components/ui/coursePage"
 import { ModelView } from "@components/ui/common"
+import { useWeb3 } from "@components/providers"
+import { useAccount } from "@components/hooks/web3"
 
 
 export const getServerSideProps = async (context) => {
@@ -24,8 +26,15 @@ function Course({ HeroProps, courseProps }) {
 
     if (courseProps) {
 
+        const { _web3Api } = useWeb3()
+        
+        const { account } = useAccount()
+        
+        
+        
         const [Hero, setHero] = useState(HeroProps)
         const [course, setcourse] = useState(courseProps)
+        
 
         const [coursePopTitle, setCoursePopTitle] = useState(false)
 
@@ -51,9 +60,25 @@ function Course({ HeroProps, courseProps }) {
             return () => window.removeEventListener('scroll', onScroll)
         }, [])
 
-        const onsubmit = (order, course) => {
-            console.log(order, course)
+        debugger
+        const onsubmit= (order, course) => {
+            const hexCourseId = _web3Api.web3.utils.utf8ToHex(course.id) 
+            const orderHash = _web3Api.web3.utils.soliditySha3(
+                { type: "bytes16", value: hexCourseId },
+                { type: "address", value: account.data }
+
+            )
+            const emailHash = _web3Api.web3.utils.sha3(order.email)
+            const proof = _web3Api.web3.utils.soliditySha3(
+                { type: "bytes32", value: emailHash },
+                { type: "bytes32", value: orderHash}
+            )
         }
+
+        // const purchaseCourse = order => {
+        //     const hexCourseId = _web3Api.web3.utils.utf8ToHex(course.id)
+
+        // }
 
 
 

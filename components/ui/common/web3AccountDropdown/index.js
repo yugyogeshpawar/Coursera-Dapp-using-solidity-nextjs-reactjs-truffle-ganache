@@ -4,23 +4,23 @@ import { useEthPrice } from '@components/hooks/useEthPrice'
 import { useWeb3 } from '@components/providers'
 
 
-function web3AccountDropdown() {
+function web3AccountDropdown() { 
 
-  const { web3Api } = useWeb3()
+  const { _web3Api } = useWeb3()
   const { eth } = useEthPrice()
 
 
 
-  if (web3Api.metamaskInstalled) {
+  if (_web3Api.metamaskInstalled) {
 
     const { account } = useAccount()
     const { network } = useNetwork()
 
     return (
       <div className={`w-full flex flex-col rounded-lg pb-12 items-center
-    ${web3Api.metamaskInstalled ? "" : "bg-red-200"}`} >
+    ${_web3Api.metamaskInstalled ? "" : "bg-red-200"}`} >
 
-        {!web3Api.metamaskInstalled ? < LoadingScreen />
+        {!_web3Api.metamaskInstalled ? < LoadingScreen />
           :
           <div className='text-sm text-center w-full font-normal px-4 max-w-lg'>
 
@@ -31,11 +31,8 @@ function web3AccountDropdown() {
 
             <div className={`font-bold mb-3 text-base 
              ${network.isSupport ? "" : "text-red-600"}
-            `}>{account.data ? account.data
-              :
-              <div className='text-red-600'>Unlock Metamask</div>
-
-              }</div>
+            `}>{account.data ? account.data : <div className='text-red-600'>Unlock Metamask</div>}
+            </div>
 
             <div className={`text-right flex justify-end items-end text-sm 
           ${network.isSupport ? "text-blue-600" : "text-red-600"} `} >

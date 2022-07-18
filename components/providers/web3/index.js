@@ -28,7 +28,7 @@ export default function Web3Provider({ children }) {
 
             if (provider) {
                 const web3 = new Web3(provider)
-                const contract =await loadContract("Coursera", provider)
+                const contract = await loadContract("Coursera", web3)
                 console.log(contract) 
                 setWeb3Api({
                     web3, provider, isLoading: false,
@@ -45,10 +45,13 @@ export default function Web3Provider({ children }) {
     }, [])
 
     const _web3Api = useMemo(() => {
+        
         return {
             ...web3Api,
             connect: async () => {
-                if (typeof window.ethereum !== 'undefined') {
+                if (typeof(window.ethereum) !== 'undefined') {
+
+                    console.log("logged")
                     try {
                         await ethereum.request({ method: 'eth_requestAccounts' })
                         location.reload()
@@ -63,7 +66,7 @@ export default function Web3Provider({ children }) {
     }, [web3Api])
 
     return (
-        <Web3Context.Provider value={{ _web3Api, web3Api }}>
+        <Web3Context.Provider value={{ _web3Api }}>
             {children}
         </Web3Context.Provider>
     )
@@ -75,7 +78,7 @@ export function useWeb3() {
 }
 
 export function useHooks(callback) {
-    const { web3Api } = useWeb3()
-    const { hooks } = web3Api
+    const { _web3Api  } = useWeb3()
+    const { hooks } = _web3Api
     return callback(hooks)
 }

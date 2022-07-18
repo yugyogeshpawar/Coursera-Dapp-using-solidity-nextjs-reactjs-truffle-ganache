@@ -35,10 +35,10 @@ function index() {
                     >
                         {Data.map((item) => <div>
                             <SwiperSlide
-                                
+                               
                                 className='!w-[250px]'>
                                 <Card
-                                    key={item.index + title}
+                            
                                     title={item.title}
                                     heading={item.heading}
                                     logoUrl={item.logoUrl}
