@@ -1,37 +1,39 @@
-import { useAccount, useNetwork } from '@components/hooks/web3/'
+import { useAccount, useNetwork, useOwnedCourses } from '@components/hooks/web3/'
 import { LoadingScreen } from '@components/ui/common'
-import { useEthPrice } from '@components/hooks/useEthPrice'
 import { useWeb3 } from '@components/providers'
 
 
 function web3AccountDropdown() { 
 
   const { _web3Api } = useWeb3()
-  const { eth } = useEthPrice()
+  const { connect } = _web3Api
+
+  const { ownedCourses } = useOwnedCourses()
+ 
 
 
 
   if (_web3Api.metamaskInstalled) {
 
     const { account } = useAccount()
+    
     const { network } = useNetwork()
 
     return (
-      <div className={`w-full flex flex-col rounded-lg pb-12 items-center
-    ${_web3Api.metamaskInstalled ? "" : "bg-red-200"}`} >
+      <div className={`w-full flex flex-col rounded-lg pb-12 items-center`} >
 
-        {!_web3Api.metamaskInstalled ? < LoadingScreen />
-          :
-          <div className='text-sm text-center w-full font-normal px-4 max-w-lg'>
+        {<div className='text-sm text-center w-full font-normal px-4 max-w-lg'>
 
-            <div className='mb-3 mt-4  text-base flex justify-center'>
+            <div className='mb-3 mt-4  text-base flex justify-center' onClick={connect} >
               Account : {account.isAdmin && <div className='font-bold text-base text-blue-600'>- Admin
               </div>}
             </div>
 
             <div className={`font-bold mb-3 text-base 
              ${network.isSupport ? "" : "text-red-600"}
-            `}>{account.data ? account.data : <div className='text-red-600'>Unlock Metamask</div>}
+            `}>{account.data ?
+                <div className='text-blue-600 font-sans'> {account.data} </div>
+                : <div className='text-red-600' onClick={connect}>Unlock Metamask</div>}
             </div>
 
             <div className={`text-right flex justify-end items-end text-sm 
@@ -47,9 +49,16 @@ function web3AccountDropdown() {
               </div>
             </div>
             {!network.isSupport && <div className='my-6 px-4 py-1 font-bold text-lg rounded text-red-600'>Connected to wrong Network <br /> Please connect to Ganache</div>}
-            <div>{eth.data}</div>
+           
           </div>
+
+          
+
         }
+        <div className='mt-5'>
+          <div className=''>Go to</div>
+        {ownedCourses}
+        </div>
       </div>
     )
   }

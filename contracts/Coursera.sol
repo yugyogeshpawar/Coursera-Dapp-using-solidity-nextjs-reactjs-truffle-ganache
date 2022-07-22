@@ -36,6 +36,9 @@ contract Coursera {
         _;
     }
 
+    //courseID  0x00000000000000000000000000003130
+    //proof  0x0000000000000000000000000000313000000000000000000000000000003130
+
     function purchaseCourse( bytes16 courseId, bytes32 proof ) external payable{
         bytes32 courseHash = keccak256(abi.encodePacked(courseId, msg.sender));
 
@@ -57,7 +60,7 @@ contract Coursera {
     function transferOwnerShip(address newOwner) external onlyOwner{
         setContractOwner(newOwner);
     }
-    
+
     function getCourseCount() external view returns(uint){
         return totalOwnedCourses;
     }
@@ -70,9 +73,8 @@ contract Coursera {
         return owner;
     }
 
-    
-    function getCouseByHash(bytes32 couseHash) external view returns(Course memory){
-        return ownedCourses[couseHash];
+    function getCourseByHash(bytes32 courseHash) external view returns(Course memory){
+        return ownedCourses[courseHash];
     }
 
     function setContractOwner(address newOwner) private{
@@ -82,6 +84,5 @@ contract Coursera {
     function hasCourseOwnership(bytes32 courseHash) private view returns(bool){
         return ownedCourses[courseHash].owner == msg.sender;
     }
-
 
 } 

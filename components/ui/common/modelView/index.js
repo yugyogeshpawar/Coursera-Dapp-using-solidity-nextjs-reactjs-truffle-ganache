@@ -41,7 +41,7 @@ const createFormState = ({ price, email, confirmationEmail }, hasAgreedTOS) => {
 }
 
 
-function index({ coursePopTitle, onClose,onSubmit }) {
+function index({ coursePopTitle, onClose,onSubmit ,courseId}) {
 
     const { web3Api } = useWeb3()
     const [isOpen, setIsOpen] = useState(false)
@@ -184,7 +184,7 @@ function index({ coursePopTitle, onClose,onSubmit }) {
                         <Button
                             disabled={formState.isDisabled}
                             className="mr-1"
-                            onClick={() => { onSubmit(order, course) }}>
+                            onClick={() => { onSubmit(order, courseId) }}>
                             Submit
                         </Button>
                         <Button

@@ -8,7 +8,7 @@ import { useWeb3 } from '@components/providers'
 
 function index() {
 
-    const { web3Api, _web3Api } = useWeb3()
+    const {  _web3Api } = useWeb3()
     const { connect } = _web3Api
     const [accountTab, setaccountTab] = useState(false)
   

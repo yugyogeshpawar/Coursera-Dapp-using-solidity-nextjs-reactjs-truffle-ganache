@@ -7,34 +7,27 @@ import { CourseinProfessionalCertificates, CourseHero, WhatisProfessionalCertifi
 import { ModelView } from "@components/ui/common"
 import { useWeb3 } from "@components/providers"
 import { useAccount } from "@components/hooks/web3"
+import { useEthPrice } from "@components/hooks/useEthPrice"
 
 
-export const getServerSideProps = async (context) => {
 
-    const { slug } = context.query
-    const res = await fetch(`http://localhost:3000/api/blog?slug=${slug}`)
-    const parsed = await res.json()
-    const HeroProps = await parsed.hero
-    const courseProps = await parsed.course
 
-    return {
-        props: { HeroProps, courseProps }
-    }
-}
-
-function Course({ HeroProps, courseProps }) {
+function Course({ HeroProps, courseProps, courseId }) {
 
     if (courseProps) {
 
         const { _web3Api } = useWeb3()
-        
-        const { account } = useAccount()
-        
-        
-        
+
+        const { web3, contract, metamaskInstalled } = _web3Api
+        if (metamaskInstalled) {
+            const { account } = useAccount()
+        }
+
+        const { eth } = useEthPrice()
+
         const [Hero, setHero] = useState(HeroProps)
         const [course, setcourse] = useState(courseProps)
-        
+
 
         const [coursePopTitle, setCoursePopTitle] = useState(false)
 
@@ -60,19 +53,36 @@ function Course({ HeroProps, courseProps }) {
             return () => window.removeEventListener('scroll', onScroll)
         }, [])
 
-        debugger
-        const onsubmit= (order, course) => {
-            const hexCourseId = _web3Api.web3.utils.utf8ToHex(course.id) 
-            const orderHash = _web3Api.web3.utils.soliditySha3(
+
+        const onsubmit = async (order, courseId) => {
+
+            const hexCourseId = web3.utils.utf8ToHex(courseId)
+            console.log(courseId);
+            console.log(hexCourseId);
+
+            const orderHash = web3.utils.soliditySha3(
                 { type: "bytes16", value: hexCourseId },
                 { type: "address", value: account.data }
 
             )
-            const emailHash = _web3Api.web3.utils.sha3(order.email)
-            const proof = _web3Api.web3.utils.soliditySha3(
+            console.log(orderHash);
+            const value = await web3.utils.toWei(String(eth.perItem))
+
+            const emailHash = web3.utils.sha3(order.email)
+            const proof = web3.utils.soliditySha3(
                 { type: "bytes32", value: emailHash },
-                { type: "bytes32", value: orderHash}
+                { type: "bytes32", value: orderHash }
             )
+            console.log(emailHash);
+            console.log(proof);
+
+            try {
+                await contract.methods.purchaseCourse(hexCourseId, proof).send({ from: account.data, value })
+            } catch {
+                console.log("purchase course operation has failed ")
+
+            }
+
         }
 
         // const purchaseCourse = order => {
@@ -122,6 +132,7 @@ function Course({ HeroProps, courseProps }) {
                     <div className="h-0 w-0 bg-[#1C2B33] "></div>
                 </div>
                 <ModelView coursePopTitle={coursePopTitle}
+                    courseId={courseId}
                     onClose={() => setCoursePopTitle(false)}
                     onSubmit={onsubmit}
                 />
@@ -137,6 +148,23 @@ function Course({ HeroProps, courseProps }) {
         </div >
     )
 }
+
+export const getServerSideProps = async (context) => {
+
+    const { slug } = context.query
+    const res = await fetch(`http://localhost:3000/api/blog?slug=${slug}.json`)
+    const parsed = await res.json()
+    const courseId = await parsed.course.id
+
+    const HeroProps = await parsed.hero
+    const courseProps = await parsed.course
+
+    return {
+        props: { HeroProps, courseProps, courseId }
+    }
+}
+
+
 export default Course
 
 Course.Layout = BaseLayout
