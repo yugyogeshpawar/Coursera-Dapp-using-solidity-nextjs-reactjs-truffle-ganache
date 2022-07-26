@@ -28,17 +28,16 @@ function index() {
                         slidesPerGroup={2}
                         lazy={true}
                         navigation
-                        rewind={true}
+
                         pagination={{ clickable: true }}
                     // onSwiper={(swiper) => console.log(swiper)}
                     // onSlideChange={() => console.log('slide change')}
                     >
                         {Data.map((item) => <div>
                             <SwiperSlide
-                               
+                                key={item.id}
                                 className='!w-[250px]'>
                                 <Card
-                            
                                     title={item.title}
                                     heading={item.heading}
                                     logoUrl={item.logoUrl}

@@ -1,9 +1,12 @@
 {
     "course": {
+        "Heading": "Google UX Design Professional Certificate",
         "id": "1410474",
         "data":"true",
         "slug": "google-ux-design",
         "url": "",
+        "title": "Google",
+        "instructorLogo": "/professionalCertificates/logo/Google-G_360x360.png",
         "Breadcrumbs":[
             "Browse","Computer Science","Design and Product"
         ]

@@ -57,15 +57,12 @@ function Course({ HeroProps, courseProps, courseId }) {
         const onsubmit = async (order, courseId) => {
 
             const hexCourseId = web3.utils.utf8ToHex(courseId)
-            console.log(courseId);
-            console.log(hexCourseId);
 
             const orderHash = web3.utils.soliditySha3(
                 { type: "bytes16", value: hexCourseId },
                 { type: "address", value: account.data }
 
             )
-            console.log(orderHash);
             const value = await web3.utils.toWei(String(eth.perItem))
 
             const emailHash = web3.utils.sha3(order.email)
@@ -73,8 +70,7 @@ function Course({ HeroProps, courseProps, courseId }) {
                 { type: "bytes32", value: emailHash },
                 { type: "bytes32", value: orderHash }
             )
-            console.log(emailHash);
-            console.log(proof);
+
 
             try {
                 await contract.methods.purchaseCourse(hexCourseId, proof).send({ from: account.data, value })

@@ -19,7 +19,7 @@ function earnDegree() {
             
               <div className='font-semibold  border-b-2 border-blue-200 mt-5 mb-2'>{data.title}</div>
               {data.data.map((data2) => (
-                <div key={ data2.Link}>
+                <div key={ data2.id}>
                   {data2.Link ? <div>{data2.Link}</div>
                     :
                     <div className="flex">

@@ -2,78 +2,97 @@
         "menuTitle": "Start or advance your career",
         "menus": [{
                 "menu": "Google Data Analyst",
+                 "id":"1410621",
                 "link": "/"
             },
             {
                 "menu": "Google Project Management",
+                 "id":"1410622",
                 "link": "/"
             },
             {
                 "menu": "Google IT Support",
+                 "id":"1410623",
                 "link": "/"
             },
             {
                 "menu": "IBM Data Science",
+                 "id":"1410624",
                 "link": "/"
             },
             {
                 "menu": "IBM Data Analyst",
+                 "id":"1410625",
                 "link": "/"
             },
             {
                 "menu": "IBM Data Analytics with Excel and R",
+                 "id":"1410626",
                 "link": "/"
             },
             {
                 "menu": "IBM Cybersecurity Analyst",
+                 "id":"1410627",
                 "link": "/"
             },
             {
                 "menu": "IBM Data Engineering",
+                 "id":"1410628",
                 "link": "/"
             },
             {
                 "menu": "IBM Full Stack Cloud Developer",
+                 "id":"1410629",
                 "link": "/"
             },
             {
                 "menu": "Facebook Social Media Marketing",
+                 "id":"1410630",
                 "link": "/"
             },
             {
                 "menu": "Facebook Marketing Analytics",
+                 "id":"1410631",
                 "link": "/"
             },
             {
                 "menu": "Salesforce Sales Development Representative",
+                 "id":"1410632",
                 "link": "/"
             },
             {
                 "menu": "Salesforce Sales Operations",
+                 "id":"1410633",
                 "link": "/"
             },
             {
                 "menu": "Intuit Bookkeeping",
+                 "id":"1410634",
                 "link": "/"
             },
             {
                 "menu": "Preparing for Google Cloud Certification: Cloud Architect",
+                 "id":"1410635",
                 "link": "/"
             },
             {
                 "menu": "Preparing for Google Cloud Certification: Cloud Data Engineer",
+                 "id":"1410636",
                 "link": "/"
             },
             {
                 "menu": "Launch your career",
+                 "id":"1410637",
                 "link": "/"
             },
             {
                 "menu": "Prepare for a certification",
+                 "id":"1410638",
                 "link": "/"
             },
             {
                 "menu": "Advance your career",
+                 "id":"1410639",
                 "link": "/"
             }
         ]
@@ -84,82 +103,102 @@
         "menuTitle": "Browse popular topics",
         "menus": [{
                 "menu": "Free Courses",
+                 "id":"1410640",
                 "link": "/"
             },
             {
                 "menu": "Learn a Language",
+                 "id":"1410641",
                 "link": "/"
             },
             {
                 "menu": "Python",
+                 "id":"1410642",
                 "link": "/"
             },
             {
                 "menu": "Java",
+                 "id":"1410643",
                 "link": "/"
             },
             {
                 "menu": "Web Design",
+                 "id":"1410644",
                 "link": "/"
             },
             {
                 "menu": "SQL",
+                 "id":"1410645",
                 "link": "/"
             },
             {
                 "menu": "Cursos Gratis",
+                 "id":"1410646",
                 "link": "/"
             },
             {
                 "menu": "Microsoft Excel",
+                 "id":"1410647",
                 "link": "/"
             },
             {
                 "menu": "Project Management",
+                 "id":"1410648",
                 "link": "/"
             },
             {
                 "menu": "Cybersecurity",
+                 "id":"1410649",
                 "link": "/"
             },
             {
                 "menu": "Human Resources",
+                 "id":"1410650",
                 "link": "/"
             },
             {
                 "menu": "Data Science Free Courses",
+                 "id":"1410651",
                 "link": "/"
             },
             {
                 "menu": "Speaking English",
+                 "id":"1410652",
                 "link": "/"
             },
             {
                 "menu": "Content Writing",
+                 "id":"1410653",
                 "link": "/"
             },
             {
                 "menu": "Full Stack Web Development",
+                 "id":"1410654",
                 "link": "/"
             },
             {
                 "menu": "Artificial Intelligence",
+                 "id":"1410655",
                 "link": "/"
             },
             {
                 "menu": "C Programming",
+                 "id":"1410656",
                 "link": "/"
             },
             {
                 "menu": "Communication Skills",
+                 "id":"1410657",
                 "link": "/"
             },
             {
                 "menu": "Blockchain",
+                 "id":"1410658",
                 "link": "/"
             },
             {
                 "menu": "See all courses",
+                 "id":"1410659",
                 "link": "/"
             }
         ]
@@ -168,82 +207,102 @@
         "menuTitle": "Popular courses and articles",
         "menus": [{
                 "menu": "Skills for Data Science Teams",
+                 "id":"1410660",
                 "link": "/"
             },
             {
                 "menu": "Data Driven Decision Making",
+                 "id":"1410661",
                 "link": "/"
             },
             {
                 "menu": "Software Engineering Skills",
+                 "id":"1410662",
                 "link": "/"
             },
             {
                 "menu": "Soft Skills for Engineering Teams",
+                 "id":"1410663",
                 "link": "/"
             },
             {
                 "menu": "Management Skills",
+                 "id":"1410664",
                 "link": "/"
             },
             {
                 "menu": "Marketing Skills",
+                 "id":"1410665",
                 "link": "/"
             },
             {
                 "menu": "Skills for Sales Teams",
+                 "id":"1410666",
                 "link": "/"
             },
             {
                 "menu": "Product Manager Skills",
+                 "id":"1410667",
                 "link": "/"
             },
             {
                 "menu": "Skills for Finance",
+                 "id":"1410668",
                 "link": "/"
             },
             {
                 "menu": "Popular Data Science Courses in the UK",
+                 "id":"1410669",
                 "link": "/"
             },
             {
                 "menu": "Beliebte Technologiekurse in Deutschland",
+                 "id":"1410670",
                 "link": "/"
             },
             {
                 "menu": "Popular Cybersecurity Certifications",
+                 "id":"1410671",
                 "link": "/"
             },
             {
                 "menu": "Popular IT Certifications",
+                 "id":"1410672",
                 "link": "/"
             },
             {
                 "menu": "Popular SQL Certifications",
+                 "id":"1410673",
                 "link": "/"
             },
             {
                 "menu": "Marketing Manager Career Guide",
+                 "id":"1410674",
                 "link": "/"
             },
             {
                 "menu": "Project Manager Career Guide",
+                 "id":"1410675",
                 "link": "/"
             },
             {
                 "menu": "Python Programming Skills",
+                 "id":"1410676",
                 "link": "/"
             },
             {
                 "menu": "Web Developer Career Guide",
+                 "id":"1410677",
                 "link": "/"
             },
             {
                 "menu": "Data Analyst Skills",
+                 "id":"1410678",
                 "link": "/"
             },
             {
                 "menu": "Skills for UX Designers",
+                 "id":"1410679",
                 "link": "/"
             }
         ]
@@ -252,63 +311,83 @@
         "menuTitle": "Earn a degree or certificate online",
         "menus": [{
             "menu": "MasterTrack® Certificates",
+             "id":"1410680",
             "link": "/"
         }, {
             "menu": "Professional Certificates",
+             "id":"1410681",
             "link": "/"
         }, {
             "menu": "University Certificates",
+             "id":"1410682",
             "link": "/"
         }, {
             "menu": "MBA & Business Degrees",
+             "id":"1410683",
             "link": "/"
         }, {
             "menu": "Data Science Degrees",
+             "id":"1410684",
             "link": "/"
         }, {
             "menu": "Computer Science Degrees",
+             "id":"1410685",
             "link": "/"
         }, {
             "menu": "Data Analytics Degrees",
+             "id":"1410686",
             "link": "/"
         }, {
             "menu": "Public Health Degrees",
+             "id":"1410687",
             "link": "/"
         }, {
             "menu": "Social Sciences Degrees",
+             "id":"1410688",
             "link": "/"
         }, {
             "menu": "Management Degrees",
+             "id":"1410689",
             "link": "/"
         }, {
             "menu": "Degrees from Top European Universities",
+             "id":"1410690",
             "link": "/"
         }, {
             "menu": "Master's Degrees",
+             "id":"1410691",
             "link": "/"
         }, {
             "menu": "Bachelor's Degrees",
+             "id":"1410692",
             "link": "/"
         }, {
             "menu": "Degrees with a Performance Pathway",
+             "id":"1410693",
             "link": "/"
         }, {
             "menu": "Bsc Courses",
+             "id":"1410694",
             "link": "/"
         }, {
             "menu": "What is a Bachelor's Degree?",
+             "id":"1410695",
             "link": "/"
         }, {
             "menu": "How Long Does a Master's Degree Take?",
+             "id":"1410696",
             "link": "/"
         }, {
             "menu": "Is an Online MBA Worth It?",
+             "id":"1410697",
             "link": "/"
         }, {
             "menu": "7 Ways to Pay for Graduate School",
+             "id":"1410698",
             "link": "/"
         }, {
             "menu": "See all certificates",
+             "id":"1410699",
             "link": "/"
         }]
     }

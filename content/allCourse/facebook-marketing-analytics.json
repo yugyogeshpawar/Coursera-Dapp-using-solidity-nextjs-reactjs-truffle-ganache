@@ -1,8 +1,11 @@
 {
     "course": {
+        "Heading": "Meta Marketing Analytics Professional Certificate",
         "id": "1410475",
         "slug": "facebook-marketing-analytics",
-        "url": "",        
+        "url": "",
+        "instructorLogo": "/instructors/anke-audenaert_thumbnail.jpg",
+        "title": "Meta",
         "Breadcrumbs":[
             "Browse","Business","Marketing"
         ]

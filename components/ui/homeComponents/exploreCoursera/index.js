@@ -13,7 +13,7 @@ function index() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full">
 
                     {Data.map((title) => (
-                        <SmCard key={title.courses} title={title.title} courses={title.courses} logoUrl={title.logoUrl} />
+                        <SmCard key={title.id} title={title.title} courses={title.courses} logoUrl={title.logoUrl} />
                     ))}
                 </div>
             </div>

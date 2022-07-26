@@ -2,26 +2,32 @@
         "title": "Data Science",
         "data": [{
                 "university": "University of Michigan",
+                 "id":"1410850",
                 "course": "Master of Applied Data Science"
             },
             {
                 "university": "University of Illinois at Urbana-Champaign",
+                 "id":"1410851",
                 "course": "Master in Computer Science"
             },
             {
                 "university": "University of Colorado Boulder",
+                 "id":"1410852",
                 "course": "Master of Science in Data Science"
             },
             {
                 "university": "HSE University",
+                 "id":"1410853",
                 "course": "Master of Data Science"
             },
             {
                 "university": "HSE University",
+                 "id":"1410854",
                 "course": "Master of Data and Network Analysis"
             },
             {
                 "university": "Universidad de los Andes",
+                 "id":"1410855",
                 "course": "Maestría en Inteligencia Analítica de Datos"
             }
         ]
@@ -31,26 +37,32 @@
         "title": "Business",
         "data": [{
                 "university": "O.P. Jindal Global University",
+                 "id":"1410856",
                 "course": "MBA in Business Analytics"
             },
             {
                 "university": "University of North Texas",
+                 "id":"1410857",
                 "course": "Bachelor of Applied Arts and Sciences"
             },
             {
                 "university": "University of Illinois at Urbana-Champaign",
+                 "id":"1410858",
                 "course": "Master of Business "
             },
             {
                 "university": "HEC Paris",
+                 "id":"1410859",
                 "course": "MSc in Innovation and Entrepreneurship"
             },
             {
                 "university": "HSE University",
+                 "id":"1410860",
                 "course": "Master of Business Analytics"
             },
             {
                 "university": "Universidad de Palermo",
+                 "id":"1410861",
                 "course": "Maestría en Dirección de Empresas (MBA)"
             }
         ]
@@ -60,26 +72,32 @@
         "title": "Business",
         "data": [{
                 "university": "University of London",
+                 "id":"1410862",
                 "course": "Bachelor of Science in Computer Science"
             },
             {
                 "university": "University of Illinois at Urbana-Champaign",
+                 "id":"1410863",
                 "course": "Master of Computer Science"
             },
             {
                 "university": "Penn Engineering",
+                 "id":"1410864",
                 "course": "Master of Computer and Information Technology"
             },
             {
                 "university": "Universidad de los Andes",
+                 "id":"1410865",
                 "course": "Maestría en Ingeniería de Software"
             },
             {
                 "university": "HSE University",
+                 "id":"1410866",
                 "course": "Master of Computer Vision"
             },
             {
                 "university": "University of Colorado Boulder",
+                 "id":"1410867",
                 "course": "Master of Science in Electrical "
             }
         ]
@@ -88,19 +106,24 @@
     {
         "title": "More Degrees",
         "data": [{
-                "Link": "Public Health"
+                "Link": "Public Health",
+                 "id":"1410880"
             },
             {
-                "Link": "Bachelor's Degrees"
+                "Link": "Bachelor's Degrees",
+                 "id":"1410881"
             },
             {
-                "Link": "Engineering"
+                "Link": "Engineering",
+                 "id":"1410882"
             },
             {
-                "Link": "Master's Degrees"
+                "Link": "Master's Degrees",
+                 "id":"1410883"
             },
             {
-                "Link": "Social Sciences"
+                "Link": "Social Sciences",
+                 "id":"1410884"
             }
         ]
     }

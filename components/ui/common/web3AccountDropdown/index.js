@@ -1,4 +1,4 @@
-import { useAccount, useNetwork, useOwnedCourses } from '@components/hooks/web3/'
+import { useAccount, useNetwork } from '@components/hooks/web3/'
 import { LoadingScreen } from '@components/ui/common'
 import { useWeb3 } from '@components/providers'
 
@@ -8,7 +8,7 @@ function web3AccountDropdown() {
   const { _web3Api } = useWeb3()
   const { connect } = _web3Api
 
-  const { ownedCourses } = useOwnedCourses()
+ 
  
 
 
@@ -57,7 +57,7 @@ function web3AccountDropdown() {
         }
         <div className='mt-5'>
           <div className=''>Go to</div>
-        {ownedCourses}
+   
         </div>
       </div>
     )

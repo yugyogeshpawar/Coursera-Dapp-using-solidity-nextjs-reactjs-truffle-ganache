@@ -10,7 +10,7 @@ function index() {
                 <div key={itmes.menuTitle} className='w-64 mx-4'>
                     <div className=' my-3 font-bold text-gray-800'>{itmes.menuTitle}</div>
                     <div className=''>{itmes.menus.map(menu =>
-                        <h3 key={menu.menu + "kyee"} className='my-2 text-sm hover:underline w-fit cursor-pointer'>{menu.menu}
+                        <h3 key={menu.id} className='my-2 text-sm hover:underline w-fit cursor-pointer'>{menu.menu}
                         </h3>
                     )}
                     </div>
@@ -22,11 +22,11 @@ function index() {
 
                 <div className='grid grid-cols-1 px-8 md:py-10  md:my-5 md:px-14 lg:px-16 sm:grid-cols-2 md:grid-cols-3 bg-gray-200 lg:grid-cols-4 max-w-7xl m-auto'>{FooterData.map(itmes =>
                     <div
-                        key={itmes.Data} className='w-64 mx-4'>
+                        key={itmes.menuTitle} className='w-64 mx-4'>
                         <div className=' my-3 font-bold text-gray-800'>{itmes.heading}</div>
                         <div className=''>
                             {itmes.menus.map(menu =>
-                                <h3 key={menu.menu + "key"}
+                                <h3 key={menu.id}
                                     className='my-2 text-sm hover:underline cursor-pointer w-fit'>
                                     {menu.menu}
                                 </h3>)}

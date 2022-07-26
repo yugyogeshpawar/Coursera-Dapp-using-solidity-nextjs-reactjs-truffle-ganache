@@ -2,18 +2,22 @@
         "menuTitle": "Goals",
         "menus": [{
                 "menu": "Take a free course",
+                 "id":"1410890",
                 "link": "/"
             },
             {
                 "menu": "Earn a Degree",
+                 "id":"1410891",
                 "link": "/"
             },
             {
                 "menu": "Earn a Certificate",
+                 "id":"1410892",
                 "link": "/"
             },
             {
                 "menu": "Advance your career",
+                 "id":"1410893",
                 "link": "/"
             }
         ]
@@ -24,52 +28,64 @@
         "menuTitle": "Subjects",
         "menus": [{
                 "menu": "Data Science",
+                 "id":"1410894",
                 "link": "/"
             },
             {
                 "menu": "Business",
+                 "id":"1410895",
                 "link": "/"
             },
 
             {
                 "menu": "Computer Science",
+                 "id":"1410896",
                 "link": "/"
             },
             {
                 "menu": "Information Technology",
+                 "id":"1410897",
                 "link": "/"
             },
             {
                 "menu": "Language Learning",
+                 "id":"1410898",
                 "link": "/"
             },
             {
                 "menu": "Health",
+                 "id":"1410899",
                 "link": "/"
             },
 
             {
                 "menu": "Personal Development",
+                 "id":"1410900",
                 "link": "/"
             },
             {
                 "menu": "Physical Science and Engineering",
+                 "id":"1410901",
                 "link": "/"
             },
             {
                 "menu": "Social Sciences",
+                 "id":"1410902",
                 "link": "/"
             },
             {
                 "menu": "Arts and Humanities",
+                 "id":"1410903",
                 "link": "/"
             },
             {
                 "menu": "Math and Logic",
+                 "id":"1410904",
                 "link": "/"
             },
             {
                 "menu": "Browse all subjects",
+                 "id":"1410905",
                 "link": "/"
             }
         ]

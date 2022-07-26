@@ -1,8 +1,11 @@
 {
     "course": {
+        "Heading": "IBM Data Engineering Professional Certificate",
         "id": "1410470",
         "slug": "ibm-data-engineer",
         "url": "",
+        "instructorLogo": "/instructors/ravahug.jpg", 
+        "title": "IBM",
         "Breadcrumbs":[
             "Browse","Information Technology","Data Management"
         ]

@@ -6,8 +6,6 @@ export default function handler(req, res) {
 
     err && res.status(500).json({ hero: "blog not found", course: `${req.query.slug}.json` })   
     
-    // console.log(req.query)
-    
     res.status(200).json(data)
   })  
 }

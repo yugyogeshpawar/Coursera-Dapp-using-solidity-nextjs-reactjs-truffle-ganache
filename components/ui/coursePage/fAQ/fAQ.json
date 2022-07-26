@@ -1,58 +1,72 @@
 [
     {
         "question": "What background knowledge is necessary?",
+         "id":"1410820",
         "ans": "None! Whether you’re completely new to the job field or have had some exposure, a Google Career Certificate is the right program for you."
     },
     {
         "question": "Can I just enroll in a single course?",
+         "id":"1410821",
         "ans": "Yes! To get started, click the course card that interests you and enroll. You can enroll and complete the course to earn a shareable certificate, or you can audit it to view the course materials for free. When you subscribe to a course that is part of a Certificate, you’re automatically subscribed to the full Certificate. Visit your learner dashboard to track your progress."
     },
     {
         "question": "Is this course really 100% online? Do I need to attend any classes in person?",
+         "id":"1410822",
         "ans": "This course is completely online, so there’s no need to show up to a classroom in person. You can access your lectures, readings and assignments anytime and anywhere via the web or your mobile device."
     },
     {
         "question": "What is a UX designer?",
+         "id":"1410823",
         "ans": "User experience (UX) designers focus on the experience that users have while using products like websites, apps, and physical objects. UX designers make those everyday interactions useful, enjoyable, and accessible. The role of an entry-level UX designer might include coming up with ideas to address user problems, conducting research with users, and designing wireframes, mockups, and prototypes. If you enjoy talking to and empathizing with people, drawing, thinking creatively, or paying attention to details, a job as a UX designer might be a good fit for you!"
     },
     {
         "question": "Why start a career in UX design?",
+         "id":"1410824",
         "ans": "As the digital world continues to expand, companies recognize that designing good user experiences is a necessity, which is why UX design is a high-growth and in-demand job field. UX designers create and organize products that people interact with daily, like mobile apps, websites, smart watches, and even physical products."
     },   
     {
         "question": "Do I need to take the courses in a specific order?",
+         "id":"1410825",
         "ans": "We highly recommend taking the courses of each certificate program in the order presented, as the content builds on information from earlier courses."
     },
     {
         "question": "Which tools or platforms are included in the curriculum?",
+         "id":"1410826",
         "ans": "Figma and Adobe XD are the design tools taught in this certificate program. Spreadsheets, word processing applications, and presentation applications will also be used. Throughout the program, you will create a professional portfolio, using the platform of your choice, to showcase your UX design work."
     },
     {
         "question": "What will I be able to do upon completing the professional certificate?",
+         "id":"1410827",
         "ans": "Google Career Certificates are designed to prepare you for an entry-level role in job fields like IT support, data analytics, project management, or UX design - whether that’s doing in-person or remote work, at a small company or a large enterprise organization. "
     },
     {
         "question": "Which jobs does this program prepare for?",
+         "id":"1410828",
         "ans": "One of the most exciting parts about joining the field of user experience is the large number of job opportunities available. Nearly every company needs UX designers to help create their digital and physical products. While the need for UX designers continues to grow, there is currently a shortage of UX design professionals to fill those roles. A career in UX design allows you the opportunity to work as a generalist, finding a role as a UX designer, UI designer, or UX researcher, or as a specialist, like a visual designer or interaction designer. Upon completion of this certificate program, you will be able to search for jobs with all of these titles, and find the role that best suits you."
     },
     {
         "question": "What resources will be available to help with the job search process?",
+         "id":"1410829",
         "ans": "In addition to expert-led training and hands-on projects designed to prepare you for a job, you'll get access to interview tips, mock interviews and resume building workshops, career coaching sessions and more."
     },
     {
         "question": "What kind of companies hire UX design professionals?",
+         "id":"1410830",
         "ans": "Organizations of all kinds, in industries as varied as technology, finance, and advertising, need UX designers to develop products. "
     },
     {
         "question": "Why did Google create this program?",
+         "id":"1410831",
         "ans": "Google had long faced an issue that many other companies also contend with: they had open IT Support roles, and not enough qualified candidates to fill them. So they built and tested a training program to provide pathways to jobs in technical support at Google, for people with no college degree or experience. In 2018, Google launched the IT Support Career Certificate, so that this training could be available to everyone. Since then, thousands of people have completed the program, making it the top professional certificate program on Coursera. 82% of U.S. program graduates report a positive career outcome within 6 months of completion, such as getting a new job, promotion or raise. When Google saw the positive impact this program was having on people all over the world, they wanted to expand into additional fast-growing, high-paying career fields – Project Management, Data Analytics and UX Design. These certificates, built and taught by Google, are designed to prepare people from all backgrounds for jobs where there is great demand for qualified candidates."
     },
     {
         "question": "Is this program offered in other languages?",
+         "id":"1410832",
         "ans": "This certificate is currently available globally in English. Google does not generate any revenue from Google Career Certificates and has made need-based financial assistance available."
     },
     {
         "question": "How much does this certificate cost?",
+         "id":"1410833",
         "ans": "Now INR 1044! In India, Coursera charges INR 1044/month after the initial 7 day free trial period. The certificate can be completed in less than 6 months of part time study. Google does not generate any revenue from Google Career Certificates and has made need-based financial assistance available."
     }
    

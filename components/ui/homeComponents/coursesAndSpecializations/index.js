@@ -13,6 +13,7 @@ function index() {
             heading: "Google UX Design",
             logoUrl: "/professionalCertificates/logo/Google-G_360x360.png",
             imgUrl: "/professionalCertificates/1200x600_UXD.png",
+            "id":"1410492",
             link: ""
 
         },
@@ -22,6 +23,7 @@ function index() {
             heading: "Facebook Marketing Analytics",
             logoUrl: "/professionalCertificates/logo/360-x-360.png",
             imgUrl: "/professionalCertificates/1200x600_DA.png",
+            "id":"1410493",
             link: ""
         },
         {
@@ -29,6 +31,7 @@ function index() {
             heading: "IBM Data Engineering",
             logoUrl: "/professionalCertificates/logo/IBM-Logo-Blk---Square.png",
             imgUrl: "/professionalCertificates/1200x600_PgM.png",
+            "id":"1410494",
             link: ""
         },
 
@@ -37,6 +40,7 @@ function index() {
             heading: "Intuit Bookkeeping",
             logoUrl: "/professionalCertificates/logo/360x360.png",
             imgUrl: "/professionalCertificates/fb-specialization.png",
+            "id":"141045",
             link: ""
         },
         {
@@ -44,6 +48,7 @@ function index() {
             heading: "Google Data Analytics",
             logoUrl: "/professionalCertificates/logo/Google-G_360x360.png",
             imgUrl: "/professionalCertificates/Group-35.png",
+            "id":"1410496",
             link: ""
         },
         {
@@ -51,6 +56,7 @@ function index() {
             heading: "Facebook Social Media Marketing",
             logoUrl: "/professionalCertificates/logo/360-x-360.png",
             imgUrl: "/professionalCertificates/iStock-1169539468.jpg",
+            "id":"1410497",
             link: ""
         },
         {
@@ -58,6 +64,7 @@ function index() {
             heading: "IBM Data Science",
             logoUrl: "/professionalCertificates/logo/IBM-Logo-Blk---Square.png",
             imgUrl: "/professionalCertificates/MA_Specialization.png",
+            "id":"1410498",
             link: ""
         },
         {
@@ -65,6 +72,7 @@ function index() {
             heading: "Google Product Management",
             logoUrl: "/professionalCertificates/logo/Google-G_360x360.png",
             imgUrl: "/professionalCertificates/option2.jpg",
+            "id":"1410499",
             link: ""
         },
         {
@@ -72,6 +80,7 @@ function index() {
             heading: "Salesforce Sales Operations",
             logoUrl: "/professionalCertificates/logo/Salesforce-Institution-Square-180px-.png",
             imgUrl: "/professionalCertificates/Professional_Certificate_-_IBM_Cybersecurity_Analyst.png",
+            "id":"1410500",
             link: ""
         },
         {
@@ -79,6 +88,7 @@ function index() {
             heading: "Google IT Support",
             logoUrl: "/professionalCertificates/logo/Google-G_360x360.png",
             imgUrl: "/professionalCertificates/1200x600_DA.png",
+            "id":"1410501",
             link: ""
         },
         {
@@ -86,6 +96,7 @@ function index() {
             heading: "IBM Cybersecurity Analyst",
             logoUrl: "/professionalCertificates/logo/IBM-Logo-Blk---Square.png",
             imgUrl: "/professionalCertificates/Search-Thumbnail.jpg",
+            "id":"1410502",
             link: ""
         },
         {
@@ -93,6 +104,7 @@ function index() {
             heading: "Salesforce Development Representative",
             logoUrl: "/professionalCertificates/logo/Salesforce-Institution-Square-180px-.png",
             imgUrl: "/professionalCertificates/unnamed.png",
+            "id":"1410503",
             link: ""
         }
     ]
@@ -114,14 +126,13 @@ function index() {
                         navigation
                         slidesPerGroup={2}
                         lazy={true}
-                        rewind={true}
+                  
                         slidesPerView={"auto"}
                         pagination={{ clickable: true }}
-                        // onSwiper={(swiper) => console.log(swiper)}
-                        // onSlideChange={() => console.log('slide change')}
+
                     >
                         {data.map((item) =>
-                            <SwiperSlide key={item.heading + "key"} className='!w-[250px]'> <Card title={item.title} heading={item.heading} logoUrl={item.logoUrl} imgUrl={item.imgUrl} /> </SwiperSlide>
+                            <SwiperSlide key={item.id} className='!w-[250px]'> <Card title={item.title} heading={item.heading} logoUrl={item.logoUrl} imgUrl={item.imgUrl} /> </SwiperSlide>
                         )}
                     </Swiper>
                 </div>

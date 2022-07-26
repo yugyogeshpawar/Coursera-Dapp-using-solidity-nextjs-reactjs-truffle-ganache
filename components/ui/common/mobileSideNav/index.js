@@ -25,7 +25,7 @@ function index() {
                 <span className="ml-3 text-base  text-gray-900">
                   {item.menus.map((item2) => (
                     <a
-                      key={item2.menu}
+                      key={item2.id}
                       className=" py-3 flex  rounded-md hover:bg-gray-50">
                       <span className="text-base  text-gray-900">{item2.menu}</span>
                     </a>

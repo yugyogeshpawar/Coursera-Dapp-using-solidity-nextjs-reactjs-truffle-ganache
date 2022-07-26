@@ -1,57 +1,68 @@
 [
     {
         "title": "Data Science",
-        "courses": "425",
+        "courses": "425",        
+         "id":"1410900",
         "logoUrl": "/exploreCoursera/data_science.png"
     },
     {
         "title": "Business",
         "courses": "1095",
+         "id":"1410901",
         "logoUrl": "/exploreCoursera/physical_science.png"
     },
     {
         "title": "Computer Science",
         "courses": "668",
+         "id":"1410902",
         "logoUrl": "/exploreCoursera/social_sciences.png"
     },
     {
         "title": "Health",
         "courses": "471",
+         "id":"1410903",
         "logoUrl": "/exploreCoursera/physical_science.png"
     },
     {
         "title": "Social Science",
         "courses": "401",
+         "id":"1410904",
         "logoUrl": "/exploreCoursera/data_science.png"
     },
     {
         "title": "Personal Development",
         "courses": "137",
+         "id":"1410905",
         "logoUrl": "/exploreCoursera/social_sciences.png"
     },
     {
         "title": "Arts and Humanities",
         "courses": "338",
+         "id":"1410906",
         "logoUrl": "/exploreCoursera/data_science.png"
     },
     {
         "title": "Physical Science and Engineering",
         "courses": "413",
+         "id":"1410907",
         "logoUrl": "/exploreCoursera/physical_science.png"
     },
     {
         "title": "Lanugage Learning",
         "courses": "150",
+         "id":"1410908",
         "logoUrl": "/exploreCoursera/data_science.png"
     },
     {
         "title": "Information Technology",
         "courses": "145",
+         "id":"1410909",
         "logoUrl": "/exploreCoursera/social_sciences.png"
     },
     {
         "title": "Math and Logic",
         "courses": "70",
+         "id":"1410910",
         "logoUrl": "/exploreCoursera/data_science.png"
     }
 ]

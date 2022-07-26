@@ -2,45 +2,59 @@
         "heading": "Coursera",
         "menus": [{
             "menu": "About",
+             "id":"1410720",
             "link": "/"
         }, {
             "menu": "What We Offer",
+             "id":"1410721",
             "link": "/"
         }, {
             "menu": "Leadership",
+             "id":"1410722",
             "link": "/"
         }, {
             "menu": "Careers",
+             "id":"1410723",
             "link": "/"
         }, {
             "menu": "Catalog",
+             "id":"1410724",
             "link": "/"
         }, {
             "menu": "Coursera Plus",
+             "id":"1410725",
             "link": "/"
         }, {
             "menu": "Professional Certificates",
+             "id":"1410726",
             "link": "/"
         }, {
             "menu": "MasterTrack® Certificates",
+             "id":"1410727",
             "link": "/"
         }, {
             "menu": "Degrees",
+             "id":"1410728",
             "link": "/"
         }, {
             "menu": "For Enterprise",
+             "id":"1410729",
             "link": "/"
         }, {
             "menu": "For Government",
+             "id":"1410730",
             "link": "/"
         }, {
             "menu": "For Campus",
+             "id":"1410731",
             "link": "/"
         }, {
             "menu": "Become a Partner",
+             "id":"1410732",
             "link": "/"
         }, {
             "menu": "Coronavirus Response",
+             "id":"1410733",
             "link": "/"
         }]
     },
@@ -48,28 +62,36 @@
         "heading": "Community",
         "menus": [{
             "menu": "Learners",
+             "id":"1410734",
             "link": "/"
         }, {
             "menu": "Partners",
+             "id":"1410735",
             "link": "/"
         }, {
 
             "menu": "Developers",
+             "id":"1410736",
             "link": "/"
         }, {
             "menu": "Beta Testers",
+             "id":"1410737",
             "link": "/"
         }, {
             "menu": "Translators",
+             "id":"1410738",
             "link": "/"
         }, {
             "menu": "Blog",
+             "id":"1410739",
             "link": "/"
         }, {
             "menu": "Tech Blog",
+             "id":"1410740",
             "link": "/"
         }, {
             "menu": "Teaching Center",
+             "id":"1410741",
             "link": "/"
         }]
     },
@@ -77,33 +99,43 @@
         "heading": "More",
         "menus": [{
             "menu": "Press",
+             "id":"1410742",
             "link": "/"
         }, {
             "menu": "Investors",
+             "id":"1410743",
             "link": "/"
         }, {
             "menu": "Terms",
+             "id":"1410744",
             "link": "/"
         }, {
             "menu": "Privacy",
+             "id":"1410745",
             "link": "/"
         }, {
             "menu": "Help",
+             "id":"1410746",
             "link": "/"
         }, {
             "menu": "Accessibility",
+             "id":"1410747",
             "link": "/"
         }, {
             "menu": "Contact",
+             "id":"1410748",
             "link": "/"
         }, {
             "menu": "Articles",
+             "id":"1410749",
             "link": "/"
         }, {
             "menu": "Directory",
+             "id":"1410750",
             "link": "/"
         }, {
             "menu": "Affiliates",
+             "id":"1410751",
             "link": "/"
         }]
     }

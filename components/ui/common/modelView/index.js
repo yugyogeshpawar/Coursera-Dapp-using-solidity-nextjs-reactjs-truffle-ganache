@@ -62,7 +62,6 @@ function index({ coursePopTitle, onClose,onSubmit ,courseId}) {
 
     useEffect(() => {
         if (!!coursePopTitle) {
-            console.log("fgsdfg");
             setIsOpen(true)
             setOrder({
                 ...defaultOrder,

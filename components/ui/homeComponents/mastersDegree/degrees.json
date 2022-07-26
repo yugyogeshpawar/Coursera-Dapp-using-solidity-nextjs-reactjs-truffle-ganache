@@ -4,6 +4,7 @@
         "logoUrl": "/professionalCertificates/logo/Google-G_360x360.png",
         "imgUrl": "/professionalCertificates/1200x600_UXD.png",
         "link": "/",
+        "id":"1410504",
         "slug": "/"
     },
 
@@ -13,6 +14,7 @@
         "logoUrl": "/professionalCertificates/logo/360-x-360.png",
         "imgUrl": "/professionalCertificates/1200x600_DA.png",
         "link": "/",
+        "id":"1410505",
         "slug": "/"
     },
     {
@@ -21,6 +23,7 @@
         "logoUrl": "/professionalCertificates/logo/IBM-Logo-Blk---Square.png",
         "imgUrl": "/professionalCertificates/1200x600_PgM.png",
         "link": "/",
+        "id":"1410506",
         "slug": "/"
     },
 
@@ -30,6 +33,7 @@
         "logoUrl": "/professionalCertificates/logo/360x360.png",
         "imgUrl": "/professionalCertificates/fb-specialization.png",
         "link": "/",
+        "id":"1410507",
         "slug": "/"
     },
     {
@@ -38,6 +42,7 @@
         "logoUrl": "/professionalCertificates/logo/Google-G_360x360.png",
         "imgUrl": "/professionalCertificates/Group-35.png",
         "link": "/",
+        "id":"1410508",
         "slug": "/"
     },
     {
@@ -46,6 +51,7 @@
         "logoUrl": "/professionalCertificates/logo/360-x-360.png",
         "imgUrl": "/professionalCertificates/iStock-1169539468.jpg",
         "link": "/",
+        "id":"1410509",
         "slug": "/"
     },
     {
@@ -54,6 +60,7 @@
         "logoUrl": "/professionalCertificates/logo/IBM-Logo-Blk---Square.png",
         "imgUrl": "/professionalCertificates/MA_Specialization.png",
         "link": "/",
+        "id":"1410510",
         "slug": "/"
     },
     {
@@ -62,6 +69,7 @@
         "logoUrl": "/professionalCertificates/logo/Google-G_360x360.png",
         "imgUrl": "/professionalCertificates/option2.jpg",
         "link": "/",
+        "id":"1410511",
         "slug": "/"
     },
     {
@@ -70,6 +78,7 @@
         "logoUrl": "/professionalCertificates/logo/Salesforce-Institution-Square-180px-.png",
         "imgUrl": "/professionalCertificates/Professional_Certificate_-_IBM_Cybersecurity_Analyst.png",
         "link": "/",
+        "id":"1410512",
         "slug": "/"
     },
     {
@@ -78,6 +87,7 @@
         "logoUrl": "/professionalCertificates/logo/Google-G_360x360.png",
         "imgUrl": "/professionalCertificates/1200x600_DA.png",
         "link": "/",
+        "id":"1410513",
         "slug": "/"
     },
     {
@@ -86,6 +96,7 @@
         "logoUrl": "/professionalCertificates/logo/IBM-Logo-Blk---Square.png",
         "imgUrl": "/professionalCertificates/Search-Thumbnail.jpg",
         "link": "/",
+        "id":"1410514",
         "slug": "/"
     },
     {
@@ -94,6 +105,7 @@
         "logoUrl": "/professionalCertificates/logo/Salesforce-Institution-Square-180px-.png",
         "imgUrl": "/professionalCertificates/unnamed.png",
         "link": "/",
+        "id":"1410515",
         "slug": "/"
     }
 ]
