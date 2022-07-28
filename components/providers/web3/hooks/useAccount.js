@@ -2,7 +2,7 @@ import useSWR from "swr"
 import { useEffect } from "react"
 
 const adminAddress = {
-    "0x137aBb20eFb86A9eA65b8520962aEd0c99772EDe": true
+    "0x5B24a03Ed498f970d14095F1dAAbab0FFcFCc54f": true
 }
 
 export const handler = (web3, provider) => () => {
@@ -14,8 +14,7 @@ export const handler = (web3, provider) => () => {
         }
     )
 
-    useEffect(() => {  
-        
+    useEffect(() => {
         provider && provider.on('accountsChanged', (accounts) => {
             if (!accounts.length) {
                 location.reload()

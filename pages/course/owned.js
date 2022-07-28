@@ -14,16 +14,15 @@ function owned({ courses }) {
     const { account } = useAccount()
 
     const { ownedCourses } = useOwnedCourses(courses, account.data)
-    if (ownedCourses.data != undefined) {
-
+    console.log(ownedCourses.hasInitialRes);
+    if (ownedCourses.isEmpty) {
       return (
         <>
 
-          {/* <div>
-            {ownedCourses.data && <div>isEmpty</div>}
-          </div> */}
+
 
           <div className='text-2xl w-full items-center h-full'>
+
             <header className="bg-slate-100 h-96 w-full">
 
               <div className="h-full flex px-6 md:px-10">
@@ -46,16 +45,8 @@ function owned({ courses }) {
                 </div>
 
               </div>
-              {
-                ownedCourses.hasInitialRes && (
-                  !ownedCourses.data || ownedCourses?.data.length >= 1 
-                ) &&
-                <div className="text-2xl text-yellow-600">
-                  <div> You don't own any course ! </div>
-                  <Link> <a className=""> </a> </Link>
-                </div>
-              }
-              {ownedCourses.data.map(course =>
+
+              {ownedCourses.data?.map(course =>
                 <div className="bg-white  h-40 m-4 md:m-8 lg:m-14 shadow-lg flex items-center">
 
 
