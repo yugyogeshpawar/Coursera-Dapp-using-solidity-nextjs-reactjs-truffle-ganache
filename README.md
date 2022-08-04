@@ -3,8 +3,9 @@ This is a [Next.js](https://nextjs.org/) project.
 ## Technologies
 The languages we used, the libraries and its versions. 
 
-### Languages
-Solidity 8.0.4
+
+Solidity 8.0.4.
+
 JavaScript
 
 
