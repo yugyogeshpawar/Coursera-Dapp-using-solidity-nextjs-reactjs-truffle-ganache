@@ -1,8 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project.
+
+## Technologies
+The languages we used, the libraries and its versions. 
+
+### Languages
+Solidity 8.0.4
+JavaScript
+
 
 ## Getting Started
 
-First, run the development server:
+First, go to the folder whether 
 
 ```bash
 npm run dev
